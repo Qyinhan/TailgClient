@@ -21,9 +21,50 @@ jobs:
         run: |
           yes | sdkmanager --licenses >/dev/null || true
           sdkmanager 'platforms;android-36' 'build-tools;35.0.0'
-      - uses: gradle/actions/setup-gradle@v6
+      # services.gradle.org redirects to the GitHub release asset, and both hosts
+      # intermittently answer 504. Try several sources, but accept only bytes that
+      # match the official SHA-256 of gradle-8.13-bin.zip.
+      - name: Provision Gradle 8.13
+        env:
+          GRADLE_DIST_SHA256: 20f1b1176237254a6fc204d8434196fa11a4cfb387567519c61556e8710aed78
+        run: |
+          set -euo pipefail
+          zip=/tmp/gradle-8.13-bin.zip
+          ok=0
+          for url in \
+            "https://services.gradle.org/distributions/gradle-8.13-bin.zip" \
+            "https://github.com/gradle/gradle-distributions/releases/download/v8.13.0/gradle-8.13-bin.zip" \
+            "https://mirrors.cloud.tencent.com/gradle/gradle-8.13-bin.zip" \
+            "https://mirrors.huaweicloud.com/gradle/gradle-8.13-bin.zip"; do
+            echo "::group::Gradle distribution from ${url}"
+            rm -f "${zip}"
+            if curl -fsSL --retry 2 --retry-delay 3 --retry-all-errors --connect-timeout 20 -o "${zip}" "${url}"; then
+              if echo "${GRADLE_DIST_SHA256}  ${zip}" | sha256sum -c -; then
+                ok=1
+                echo "::endgroup::"
+                break
+              fi
+              echo "SHA-256 mismatch, discarding ${url}" >&2
+            fi
+            echo "::endgroup::"
+          done
+          if [ "${ok}" -ne 1 ]; then
+            echo "::error::No source served gradle-8.13-bin.zip with the pinned SHA-256" >&2
+            exit 1
+          fi
+          mkdir -p /opt/gradle
+          unzip -q "${zip}" -d /opt/gradle
+          echo "/opt/gradle/gradle-8.13/bin" >> "${GITHUB_PATH}"
+          /opt/gradle/gradle-8.13/bin/gradle --version
+      - name: Cache Gradle user home
+        uses: actions/cache@v4
         with:
-          gradle-version: '8.13'
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-home-${{ runner.os }}-8.13-${{ hashFiles('**/*.gradle.kts', 'gradle.properties') }}
+          restore-keys: |
+            gradle-home-${{ runner.os }}-8.13-
       - name: Repository contract and APK validator tests
         run: |
           python3 tools/check_repository.py
