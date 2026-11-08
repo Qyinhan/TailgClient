@@ -1,0 +1,51 @@
+﻿feature_id,feature_name,category,static_discovery,protocol_verified,android_implemented,device_test,notes
+account.password,账号密码登录,ACCOUNT,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+account.sms,短信验证码登录,ACCOUNT,YES,NO,PARTIAL,NOT_RUN,"Static login/slider contracts, developer-only human ticket input, Keystore compare-and-swap session renewal; licensed challenge UI/live test pending"
+account.oneclick,一键登录,ACCOUNT,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+account.wx,微信登录与绑定,ACCOUNT,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+account.zfb,支付宝登录与绑定,ACCOUNT,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+account.profile,用户资料与账号管理,ACCOUNT,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+vehicle.list,车辆列表与切换,VEHICLE,YES,NO,PARTIAL,NOT_RUN,"Read-only userCarListPage (10/page), manual load-more, hasNext/total, de-duplication and safe ownership defaults; no live test"
+vehicle.bind,扫码与车辆绑定,VEHICLE,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+vehicle.unbind,车辆解绑,VEHICLE,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+vehicle.ability,车型能力与配件管理,VEHICLE,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+vehicle.rename,车辆资料修改,VEHICLE,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+control.lock,远程上锁,CONTROL,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+control.unlock,远程解锁,CONTROL,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+control.start,远程启动,CONTROL,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+control.stop,远程熄火,CONTROL,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+control.find,远程寻车,CONTROL,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+control.cushion,远程开座桶,CONTROL,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+control.status,远程车辆自检,CONTROL,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+ble.scan,BLE 扫描与连接,BLUETOOTH,YES,NO,PARTIAL,NOT_RUN,"Passive advertising scan plus explicit one-shot GATT service metadata discovery; Android device testing pending; no pairing, authenticated control or characteristic data access"
+ble.pair,BLE 配对与本地指令,BLUETOOTH,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+ble.reconnect,BLE 自动重连,BLUETOOTH,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+status.battery,电池电量与 BMS,STATUS,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+status.mileage,里程与骑行数据,STATUS,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+status.tire,胎压监测,STATUS,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+status.temperature,温度与故障状态,STATUS,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+location.vehicle,车辆实时位置,LOCATION,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+location.history,历史轨迹,LOCATION,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+location.fence,电子围栏,LOCATION,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+safety.password,密码解锁设置,SAFETY,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+safety.alarm,车辆安全提醒,SAFETY,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+device.nfc,NFC 钥匙,DEVICE,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+device.bms,电池及智能部件配置,DEVICE,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+ota.check,固件版本检测,OTA,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+ota.update,OTA 固件升级,OTA,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+share.users,车辆共享与家庭成员,SHARING,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+share.transfer,车辆转让,SHARING,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+nav.map,地图与车辆定位,NAVIGATION,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+nav.stores,服务网点与充电站,NAVIGATION,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+carlink.easyconn,车机互联,CARLINK,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+carlink.wallpaper,车机壁纸,CARLINK,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+message.system,系统消息,MESSAGE,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+message.vehicle,车辆消息与推送设置,MESSAGE,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+sim.flow,SIM 流量查询,CONNECTIVITY,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+sim.package,SIM 套餐与充值,CONNECTIVITY,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+service.feedback,反馈与评价,SERVICES,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+service.payment,订单与支付,SERVICES,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+service.after_sales,售后与客服,SERVICES,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+service.social,社区与社交,SERVICES,YES,NO,NO,NOT_RUN,Reference functions may differ by model
+settings.app,应用设置与版本更新,SETTINGS,YES,NO,PARTIAL,NOT_RUN,"Local system/light/dark and dynamic-color preferences implemented; OTA app-update flow not implemented; Android build/device test pending"
+settings.privacy,协议与隐私设置,SETTINGS,YES,NO,NO,NOT_RUN,Reference functions may differ by model

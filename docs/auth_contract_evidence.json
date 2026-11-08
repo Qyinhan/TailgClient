@@ -1,0 +1,69 @@
+{
+  "evidence": "STATIC_APK",
+  "live_test": "NOT_RUN",
+  "sha256": "5c50322bca96a95490316818abc7729f2798bf7c091ad1c2fd0c13c7f79f7245",
+  "verified_methods": [
+    {
+      "class": "Lcom/tailg/run/intelligence/net/TailgRepository;",
+      "method": "login",
+      "constants": [
+        "macCode",
+        "phone",
+        "smsCode",
+        "autoCompleteUserDetail",
+        "true"
+      ],
+      "invocations": [
+        "TailgService;->login("
+      ]
+    },
+    {
+      "class": "Lcom/tailg/run/intelligence/net/TailgRepository;",
+      "method": "loginCode",
+      "constants": [],
+      "invocations": [
+        "TailgService;->loginCode("
+      ]
+    },
+    {
+      "class": "Lcom/tailg/run/intelligence/net/TailgRepository;",
+      "method": "userCarList",
+      "constants": [
+        "containShare"
+      ],
+      "invocations": [
+        "TailgService;->userCarList("
+      ]
+    },
+    {
+      "class": "Lcom/tailg/run/intelligence/net/TailgRepository;",
+      "method": "userCarListPage",
+      "constants": [
+        "containShare",
+        "pageSize",
+        "nowPageIndex"
+      ],
+      "invocations": [
+        "TailgService;->userCarListPage("
+      ]
+    },
+    {
+      "class": "Lcom/tailg/run/intelligence/net/TailgRetrofit$1;",
+      "method": "intercept",
+      "constants": [
+        "Authorization"
+      ],
+      "invocations": [
+        "PrefsUtil;->saveToken("
+      ]
+    }
+  ],
+  "user_car_fields": [
+    "carId",
+    "carName",
+    "carNickName",
+    "electricQuantity",
+    "frame",
+    "online"
+  ]
+}

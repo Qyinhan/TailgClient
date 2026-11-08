@@ -1,0 +1,35 @@
+{
+  "source": "STATIC_APK",
+  "apk_sha256": "5c50322bca96a95490316818abc7729f2798bf7c091ad1c2fd0c13c7f79f7245",
+  "live_test": "NOT_RUN",
+  "garage_page": {
+    "endpoint": "app/userCarListPage",
+    "http_method": "POST",
+    "body_annotation": "@Body",
+    "body_keys": [
+      "containShare",
+      "pageSize",
+      "nowPageIndex"
+    ],
+    "original_page_size_const": 10,
+    "response_model": "UserCarListPageBean",
+    "response_fields": {
+      "pageData": "Ljava/util/List;",
+      "hasNext": "Ljava/lang/String;",
+      "total": "Ljava/lang/String;",
+      "nowPageIndex": "Ljava/lang/String;",
+      "pageSize": "Ljava/lang/String;"
+    },
+    "response_values_observed": false
+  },
+  "device_id": {
+    "cache_key": "KEY_UDID",
+    "cache_store": "SPUtils",
+    "cross_app_equivalence": "NOT_VERIFIED"
+  },
+  "captcha_webview": {
+    "class": "WebDialog",
+    "javascript_bridge": "tailgAppJsInterface",
+    "third_party_authorization": "NOT_VERIFIED"
+  }
+}

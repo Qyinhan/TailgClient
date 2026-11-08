@@ -1,0 +1,4059 @@
+[
+  {
+    "method": "accountManagementData",
+    "http": "POST",
+    "path": "app/social/accountManagementData",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "activeCheck",
+    "http": "POST",
+    "path": "app/v3/active/check",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "activeGet",
+    "http": "POST",
+    "path": "app/v3/active/get",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "activeSave",
+    "http": "POST",
+    "path": "app/v3/active/save",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "addFeedbackDetailData",
+    "http": "POST",
+    "path": "app/feedback/insFeedbackDetail",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/tailgservice/feedback/bean/FeedBackBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "addOss",
+    "http": "POST",
+    "path": "social/app/trends/addOss",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "affirmBatteryInfo",
+    "http": "POST",
+    "path": "app/centralControl/batterySetUp",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "alarmThreshold",
+    "http": "POST",
+    "path": "app/tirePressure/alarmThreshold",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "aliOssUploadPhoto",
+    "http": "POST",
+    "path": "app/tools/ocr",
+    "args": [
+      {
+        "type": "Lokhttp3/RequestBody;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "authStatus",
+    "http": "POST",
+    "path": "app/sim/chargeCard/auth/status",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "avatarUpload",
+    "http": "POST",
+    "path": "app/avatarUpload",
+    "args": [
+      {
+        "type": "Ljava/util/List;",
+        "annotations": [
+          {
+            "type": "Part",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bikeBanding",
+    "http": "POST",
+    "path": "app/bikeBanding",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bikeBindAgain",
+    "http": "POST",
+    "path": "app/car/bikeBindAgain",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/qgj/bean/BikeBindAgainEcuBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bikeBindAgainC39",
+    "http": "POST",
+    "path": "app/car/bikeBindAgain",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/qgj/bean/BikeBindAgainEcuC39Bean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bikeUnbind",
+    "http": "POST",
+    "path": "app/car/bikeUnbind",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bind",
+    "http": "POST",
+    "path": "app/third/zfb/bind",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bindAgain",
+    "http": "POST",
+    "path": "app/car/bindAgain",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/qgj/bean/BikeBindAgainEcuQgjV3Bean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bindCar",
+    "http": "POST",
+    "path": "app/userCarExternal/bindCar",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bindCar1",
+    "http": "POST",
+    "path": "app/car/bikeBind",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/bind_car_new/bean/CarInfoBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bindTire",
+    "http": "POST",
+    "path": "app/tirePressure/bind",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "blueOff",
+    "http": "POST",
+    "path": "app/web/hid/off",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "blueOn",
+    "http": "POST",
+    "path": "app/web/hid/on",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bmsBatteryInfo",
+    "http": "POST",
+    "path": "app/mine/bmsBatteryInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bmsReport",
+    "http": "POST",
+    "path": "app/car/bmsTlvExt/report",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bmsTlvBatteryInfo",
+    "http": "POST",
+    "path": "app/mine/bmsTlvBatteryInfo",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "bmsTlvBatterySetUp",
+    "http": "POST",
+    "path": "app/centralControl/bmsTlvBatterySetUp",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "buyPackage",
+    "http": "POST",
+    "path": "app/sim/buyPackage",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "buyPackageByGpsImei",
+    "http": "POST",
+    "path": "app/sim/buyPackageByGpsImei",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "buyPeel",
+    "http": "POST",
+    "path": "shop/app/order/dashboardSkinProduct/create",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "cancel",
+    "http": "POST",
+    "path": "app/cancel",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "carSurance",
+    "http": "POST",
+    "path": "app/carSurance",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "carTransferCode",
+    "http": "POST",
+    "path": "app/sms/carTransferCode",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "carTravelRecords",
+    "http": "POST",
+    "path": "app/carTravel/records",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "changeCenterControl",
+    "http": "POST",
+    "path": "app/car/changeCenterControl",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "changeUsingCar",
+    "http": "POST",
+    "path": "app/centralControl/changeUsingCar",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "channel",
+    "http": "POST",
+    "path": "app/dict/channel",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "chargeCardAuth",
+    "http": "POST",
+    "path": "app/sim/chargeCard/auth",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "chargeCardReceive",
+    "http": "POST",
+    "path": "app/sim/chargeCard/receive",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "checkAppVersion",
+    "http": "POST",
+    "path": "app/version/v2/checkAppVersion",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "checkGpsDevice",
+    "http": "POST",
+    "path": "app/centralControl/checkGpsDevice",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "checkHasGpsAndNotNet",
+    "http": "POST",
+    "path": "app/centralControl/checkHasGpsAndNotNet",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "checkParts",
+    "http": "POST",
+    "path": "app/centralControl/checkParts",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "checkPilotCity",
+    "http": "POST",
+    "path": "app/v3/vehicle/checkPilotCity",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "checkSimDevice",
+    "http": "POST",
+    "path": "app/centralControl/checkSimDevice",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "collectReport",
+    "http": "POST",
+    "path": "app/v2/collect/report",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "configGet",
+    "http": "GET",
+    "path": "smart/app/config/get",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "configLive",
+    "http": "GET",
+    "path": "smart/app/config/live",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "configLiveHits",
+    "http": "GET",
+    "path": "smart/app/config/live/hits",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "createNewFeedBack",
+    "http": "POST",
+    "path": "app/feedback/insFeedback",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/tailgservice/feedback/bean/FeedBackBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "createNewFeedbackEvaluation",
+    "http": "POST",
+    "path": "app/feedback/insUserFeedbackEvaluation",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/tailgservice/feedback/bean/EvaluationBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "delAlias",
+    "http": "POST",
+    "path": "app/msg/delAlias",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "delByImei",
+    "http": "POST",
+    "path": "app/centralControl/delByImei",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "delMsg",
+    "http": "POST",
+    "path": "app/msg/delMsg",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "delNetLink",
+    "http": "POST",
+    "path": "app/centralControl/delNetLink",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "deleteDeviceTravel",
+    "http": "POST",
+    "path": "app/centralControl/deleteDeviceTravel",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "deleteParts",
+    "http": "POST",
+    "path": "app/centralControl/deleteParts",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "deviceTravel",
+    "http": "POST",
+    "path": "app/centralControl/deviceTravel",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "deviceTravelDetail",
+    "http": "POST",
+    "path": "app/centralControl/deviceTravelDetail",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "fenceConfig",
+    "http": "POST",
+    "path": "app/device/fence/config",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "findSharedInfo",
+    "http": "POST",
+    "path": "app/car/findSharedInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "firmVersion",
+    "http": "POST",
+    "path": "app/car/firmVersion",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getAbility",
+    "http": "POST",
+    "path": "app/car/getAbility",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getAllCity",
+    "http": "GET",
+    "path": "app/stores/cityAll",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getAllFirmVersion",
+    "http": "POST",
+    "path": "app/firmVersionInfo/getAllFirmVersion",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getBatteryInfo",
+    "http": "POST",
+    "path": "app/centralControl/getBatteryInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getBatteryInfoData",
+    "http": "POST",
+    "path": "app/mine/batteryInfo",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getBatterySpecByType",
+    "http": "POST",
+    "path": "app/centralControl/batterySpecByType",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getBatteryTypeBeans",
+    "http": "POST",
+    "path": "app/centralControl/batteryType",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getBatteryTypeExtBeans",
+    "http": "POST",
+    "path": "app/centralControl/batteryType/ext",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getBikeInfo",
+    "http": "POST",
+    "path": "app/getBikeInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getByCarId",
+    "http": "POST",
+    "path": "app/car/extend/getByCarId",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getCarBtConnectedState",
+    "http": "POST",
+    "path": "app/centralControl/carBTStatus",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getCarControlInfo",
+    "http": "POST",
+    "path": "app/centralControl/carStatus",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getCarInfo",
+    "http": "POST",
+    "path": "app/car/getCarInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getCarList",
+    "http": "POST",
+    "path": "app/appRiding/getCarList",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getCarMsgList",
+    "http": "POST",
+    "path": "app/msg/pageOfCarMsg",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getCarNames",
+    "http": "POST",
+    "path": "app/getCarNameList",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getCarProblemDetail",
+    "http": "POST",
+    "path": "app/msg/getCarProblemDetail",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getCarbonDetail",
+    "http": "POST",
+    "path": "app/appRiding/getCarbonDetail",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getCode",
+    "http": "POST",
+    "path": "app/getCode",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "phone"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getControlBikeInfo",
+    "http": "POST",
+    "path": "app/getBikeInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getCuyrrentSwapper",
+    "http": "POST",
+    "path": "smart/app/wallpaper/app/current",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getDictBeansByDictNm",
+    "http": "POST",
+    "path": "app/dict/getDict",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getEvaluateTempSign",
+    "http": "POST",
+    "path": "smart/oss/getEvaluateTempSign",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getFeedBackHeadBeansData",
+    "http": "POST",
+    "path": "app/feedback/getFeedbackList",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getFeedbackDetailData",
+    "http": "POST",
+    "path": "app/feedback/getFeedbackDetail",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getFeedbackEvaluation",
+    "http": "POST",
+    "path": "app/feedback/getUserFeedbackEvaluation",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getFeedbackListPage",
+    "http": "POST",
+    "path": "app/feedback/getFeedbackListPage",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getFenceData",
+    "http": "POST",
+    "path": "app/device/getFenceData",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getFirmVersion",
+    "http": "POST",
+    "path": "app/firmVersionInfo/getFirmVersion",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "imei"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getFlowInfo",
+    "http": "POST",
+    "path": "app/sim/getFlowInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getFlowRechargeRecordInfo",
+    "http": "POST",
+    "path": "app/sim/getSimPayRecord",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getFunctionSettingsData",
+    "http": "POST",
+    "path": "app/car/getCarSysSettings",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getInstrumentOta",
+    "http": "POST",
+    "path": "app/firmVersionInfo/getTftFirmVersion",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getMessageControl",
+    "http": "POST",
+    "path": "app/msg/getMessageControl",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getMultipleDictBeansByDictNms",
+    "http": "POST",
+    "path": "app/dict/getMultipleDict",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getNFCByQgj",
+    "http": "POST",
+    "path": "app/centralControl/getNFCByQgj",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getNetStatus",
+    "http": "POST",
+    "path": "app/centralControl/getNetStatus",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getPasswordByImei",
+    "http": "POST",
+    "path": "app/centralControl/getPasswordByImei",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getPayStauts",
+    "http": "POST",
+    "path": "app/appPay/getPayStauts",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getPeelPayStauts",
+    "http": "POST",
+    "path": "shop/app/order/dashboardSkinProduct/getOrderState",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "orderNo"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getRidingDetail",
+    "http": "POST",
+    "path": "app/appRiding/getRidingDetail",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getSecret",
+    "http": "GET",
+    "path": "app/getSecret",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getSelfEvaluateInfo",
+    "http": "POST",
+    "path": "smart/app/evaluate/getSelfEvaluateInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getShareUser",
+    "http": "POST",
+    "path": "app/getShareUser",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getSimFlowInfo",
+    "http": "POST",
+    "path": "app/sim/getFlowInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getSimPayRecordPage",
+    "http": "POST",
+    "path": "app/sim/getSimPayRecordPage",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getStoreByCity",
+    "http": "POST",
+    "path": "app/service/stores",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getStoreByCityPage",
+    "http": "POST",
+    "path": "app/service/pageStores",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getSysMsgList",
+    "http": "POST",
+    "path": "app/msg/pageOfSysMsg",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getUserDetailInfo",
+    "http": "POST",
+    "path": "app/getUserDetailInfo",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "uid"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getUserProfile",
+    "http": "POST",
+    "path": "app/getUserProfile",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getUserSocialStatistics",
+    "http": "GET",
+    "path": "social/app/follow/getUserSocialStatistics",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getVersion",
+    "http": "POST",
+    "path": "app/version/getVersion",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getWeChatPayOrder",
+    "http": "POST",
+    "path": "app/appPay/getWeChatPayOrder",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "getZfbPayOrder",
+    "http": "POST",
+    "path": "app/appPay/getZfbPayOrder",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "googleApiRegeo",
+    "http": "GET",
+    "path": "https://restapi.amap.com/v3/geocode/regeo?key=[REDACTED]",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "location"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "googleApisGeocode",
+    "http": "GET",
+    "path": "https://maps.googleapis.com/maps/api/geocode/json?key=[REDACTED]SyC-hVQoN0WsJs-F4kdV4oGEUcEXXqqoQ9o",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "latlng"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "infoPerfect",
+    "http": "POST",
+    "path": "app/infoPerfect",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "latestRecord",
+    "http": "POST",
+    "path": "app/carTravel/currentMonthLatestRecord",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "latestUnread",
+    "http": "GET",
+    "path": "social/app/userMessage/latestUnread",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "listEvaluateInfo",
+    "http": "POST",
+    "path": "smart/app/evaluate/listEvaluateInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "listEvaluateTagByScore",
+    "http": "POST",
+    "path": "smart/app/evaluate/listEvaluateTagByScore",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "listParts",
+    "http": "POST",
+    "path": "app/centralControl/listParts",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "listPartsBle",
+    "http": "POST",
+    "path": "app/centralControl/listParts",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "liveGet",
+    "http": "POST",
+    "path": "app/live/get",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "login",
+    "http": "POST",
+    "path": "app/login",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "loginByWatch",
+    "http": "POST",
+    "path": "app/loginByWatch",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "loginCode",
+    "http": "POST",
+    "path": "app/sms/loginCode",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "phone"
+          }
+        ]
+      },
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "captchaPassToken"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "logsApply",
+    "http": "POST",
+    "path": "app/logs/apply",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "logsUpload",
+    "http": "POST",
+    "path": "app/logs/upload",
+    "args": [
+      {
+        "type": "Lokhttp3/MultipartBody$Part;",
+        "annotations": [
+          {
+            "type": "Part",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "messageControl",
+    "http": "POST",
+    "path": "app/msg/messageControl",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "oneclick",
+    "http": "POST",
+    "path": "app/login/oneclick",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "otaProgress",
+    "http": "POST",
+    "path": "app/firmVersionInfo/otaProgress",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "imei"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "pageStoreEvaluateInfo",
+    "http": "POST",
+    "path": "smart/app/evaluate/store/pageStoreEvaluateInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "pendingSummary",
+    "http": "POST",
+    "path": "app/sim/chargeCard/pending/summary",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "perfectSolvingFeedback",
+    "http": "POST",
+    "path": "app/feedback/perfectSolving",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "phoneBand",
+    "http": "POST",
+    "path": "app/phoneBand",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "phoneChange",
+    "http": "POST",
+    "path": "app/phoneChange",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "phoneChangeCode",
+    "http": "POST",
+    "path": "app/sms/phoneChangeCode",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "phoneChangeV2",
+    "http": "POST",
+    "path": "app/phoneChange/v2",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "platfromAuth",
+    "http": "POST",
+    "path": "auth/login",
+    "args": [
+      {
+        "type": "Lokhttp3/RequestBody;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "postCarStatusChange",
+    "http": "POST",
+    "path": "app/device/statDetail",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "preferences",
+    "http": "POST",
+    "path": "app/car/preferences",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "preferencesPrice",
+    "http": "POST",
+    "path": "app/car/preferences/price",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "privateAgreement",
+    "http": "GET",
+    "path": "doc/private.htm",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "protocol",
+    "http": "GET",
+    "path": "app/protocol",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "title"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "queryAllPackage",
+    "http": "POST",
+    "path": "app/sim/queryAllPackage",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "querySimDetail",
+    "http": "POST",
+    "path": "app/sim/queryDetail",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "queryWeather",
+    "http": "GET",
+    "path": "simpleWeather/query",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "city"
+          }
+        ]
+      },
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "key"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "regin",
+    "http": "GET",
+    "path": "app/region",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "pid"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "remoteLock",
+    "http": "POST",
+    "path": "app/device/cmd/lock",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "remoteOpenCushion",
+    "http": "POST",
+    "path": "app/device/cmd/openCushion",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "remoteSearch",
+    "http": "POST",
+    "path": "app/device/cmd/search",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "remoteSelfCheck",
+    "http": "POST",
+    "path": "app/device/cmd/status",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "remoteStart",
+    "http": "POST",
+    "path": "app/device/cmd/start",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "remoteStop",
+    "http": "POST",
+    "path": "app/device/cmd/stop",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "remoteUnLock",
+    "http": "POST",
+    "path": "app/device/cmd/unlock",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "removeEvaluateInfo",
+    "http": "GET",
+    "path": "smart/app/evaluate/removeEvaluateInfo",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Query",
+            "name": "id"
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "report",
+    "http": "POST",
+    "path": "app/car/extend/report",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "reportBeat",
+    "http": "POST",
+    "path": "app/beatProducer/reportBeat",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "reportGps",
+    "http": "POST",
+    "path": "app/gpsProducer/reportGps",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "reportInstrument",
+    "http": "POST",
+    "path": "smart/app/wallpaper/install/success",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "reportMotorCtrlInfo",
+    "http": "POST",
+    "path": "app/firmVersionInfo/reportMotorCtrlInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "saveParts",
+    "http": "POST",
+    "path": "app/centralControl/saveParts",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "savePasswordUnlock",
+    "http": "POST",
+    "path": "app/centralControl/savePasswordUnlock",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "saveResource",
+    "http": "POST",
+    "path": "smart/oss/saveResource",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "sendVerCode",
+    "http": "POST",
+    "path": "app/carTransfer/sendVerCode",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "setAbility",
+    "http": "POST",
+    "path": "app/car/setAbility",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/qgj/bean/AbilityInfoBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "setCarOperator",
+    "http": "POST",
+    "path": "app/car/setCarOperator",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "setFunctionSettingsData",
+    "http": "POST",
+    "path": "app/car/carSysSettings",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "setMessagePushConfig",
+    "http": "POST",
+    "path": "app/msg/setMessagePushConfig",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "setNFCByQgj",
+    "http": "POST",
+    "path": "app/centralControl/setNFCByQgj",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/qgj/bean/NFCByQgjBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "setNetKey",
+    "http": "POST",
+    "path": "app/centralControl/setNetKey",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "shareAdd",
+    "http": "POST",
+    "path": "app/shareAdd",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "shareAgain",
+    "http": "POST",
+    "path": "app/shareAgain",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "shareDelete",
+    "http": "POST",
+    "path": "app/shareDelete",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "shareList",
+    "http": "POST",
+    "path": "app/shareList",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "shareListPage",
+    "http": "POST",
+    "path": "app/shareListPage",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "shareStop",
+    "http": "POST",
+    "path": "app/shareStop",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "simUpdateReport",
+    "http": "POST",
+    "path": "app/sim/simUpdateReport",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "sliderVerify",
+    "http": "POST",
+    "path": "app/captcha/slider/verify",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "socialUnbound",
+    "http": "POST",
+    "path": "app/social/socialUnbound",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "storeGetStoreInfo",
+    "http": "POST",
+    "path": "app/v3/store/getStoreInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "storeSaveStoreInfo",
+    "http": "POST",
+    "path": "app/v3/store/saveStoreInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "storeSetail",
+    "http": "POST",
+    "path": "app/store/detail",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "submitEvaluateInfo",
+    "http": "POST",
+    "path": "smart/app/evaluate/submitEvaluateInfo",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/home/bean/EvaluateInfoSubmitBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "submitSelfEvaluateInfo",
+    "http": "POST",
+    "path": "smart/app/evaluate/submitSelfEvaluateInfo",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/home/bean/SubmitSelfEvaluateInfoBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "syncCar",
+    "http": "POST",
+    "path": "app/syncCar",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "syncMacByQgj",
+    "http": "POST",
+    "path": "app/centralControl/syncMacByQgj",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "temperatureInfo",
+    "http": "POST",
+    "path": "app/mine/temperatureInfo",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "temporarySignature",
+    "http": "POST",
+    "path": "social/app/trends/temporarySignature",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "tirePressure",
+    "http": "POST",
+    "path": "app/tirePressure/status",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "transfer",
+    "http": "POST",
+    "path": "app/carTransfer/transfer",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "unbindTire",
+    "http": "POST",
+    "path": "app/tirePressure/unbind",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "upGradation",
+    "http": "POST",
+    "path": "app/firmVersionInfo/upGradation",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "updFenceData",
+    "http": "POST",
+    "path": "app/device/updFenceData",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "updUserDetailInfo",
+    "http": "POST",
+    "path": "app/updateUserProfile",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "updateCarInfo",
+    "http": "POST",
+    "path": "app/car/updateCarInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "updateEvaluateInfo",
+    "http": "POST",
+    "path": "smart/app/evaluate/updateEvaluateInfo",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/home/bean/UupdateEvaluateInfoBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "updateFirmVersion",
+    "http": "POST",
+    "path": "app/firmVersionInfo/updateFirmVersion",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "updateNetLink",
+    "http": "POST",
+    "path": "app/centralControl/updateNetLink",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "updateQgjCarInfo",
+    "http": "POST",
+    "path": "app/car/updateCarInfo",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "uploadObs",
+    "http": "PUT",
+    "path": "",
+    "args": [
+      {
+        "type": "Ljava/lang/String;",
+        "annotations": [
+          {
+            "type": "Url",
+            "name": ""
+          }
+        ]
+      },
+      {
+        "type": "Lokhttp3/RequestBody;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "userCarExternal",
+    "http": "POST",
+    "path": "app/userCarExternal/list",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "userCarList",
+    "http": "POST",
+    "path": "app/userCarList",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "userCarListPage",
+    "http": "POST",
+    "path": "app/userCarListPage",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "userCarPage",
+    "http": "POST",
+    "path": "app/userCarPage",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "userTravelCarType",
+    "http": "POST",
+    "path": "app/centralControl/userTravelCarType",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "vehicleBind",
+    "http": "POST",
+    "path": "app/v3/vehicle/bind",
+    "args": [
+      {
+        "type": "Lcom/tailg/run/intelligence/model/bind_car_new/bean/CarInfoBean;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "versionProtocol",
+    "http": "POST",
+    "path": "app/version/protocol",
+    "args": [],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "versionUpdProtocol",
+    "http": "POST",
+    "path": "app/version/updProtocol",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "wxBind",
+    "http": "POST",
+    "path": "app/third/wx/bind",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "wxLogin",
+    "http": "POST",
+    "path": "app/third/wx/login",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "ynLock",
+    "http": "POST",
+    "path": "app/device/ynLock",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  },
+  {
+    "method": "zfbLogin",
+    "http": "POST",
+    "path": "app/third/zfb/login",
+    "args": [
+      {
+        "type": "Ljava/util/Map;",
+        "annotations": [
+          {
+            "type": "Body",
+            "name": ""
+          }
+        ]
+      }
+    ],
+    "return_dex_type": "Lio/reactivex/Observable;",
+    "source_dex": "classes2.dex",
+    "validated_request_schema": false,
+    "validated_response_schema": false
+  }
+]

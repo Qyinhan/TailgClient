@@ -1,0 +1,11 @@
+{
+  "apk_name": "台铃智能_3.6.2.apk",
+  "sha256": "5c50322bca96a95490316818abc7729f2798bf7c091ad1c2fd0c13c7f79f7245",
+  "bytes": 313196738,
+  "dex_count": 17,
+  "native_abis": {
+    "arm64-v8a": 51
+  },
+  "analysis": "static-only",
+  "has_live_verification": false
+}

@@ -1,0 +1,140 @@
+{
+  "source": "user-supplied Tailg 3.6.2 APK",
+  "evidence": "DEX_METHOD_SIGNATURES_ONLY",
+  "live_test": "NOT_RUN",
+  "pairing_verified": false,
+  "firmware_commands_extracted": false,
+  "backends": {
+    "tlink_nordic": {
+      "dex": "classes2.dex",
+      "class": "Lcom/tailg/run/intelligence/tlink_ble/TLinkBleManager;",
+      "sdk_type_hints": [
+        "Nordic BLE Android",
+        "Android Bluetooth GATT"
+      ],
+      "public_signature_probes": [
+        {
+          "name": "connectDevice",
+          "parameters": [
+            "Lcom/tailg/run/intelligence/tlink_ble/TailgBluetoothDevice;",
+            "Lcom/tailg/run/intelligence/tlink_ble/BleConnectType;",
+            "I",
+            "Z",
+            "Ljava/lang/String;",
+            "Ljava/util/List;",
+            "Ljava/lang/String;"
+          ],
+          "return_type": "V"
+        },
+        {
+          "name": "disconnectDevice",
+          "parameters": [],
+          "return_type": "V"
+        },
+        {
+          "name": "getLoginConnectState",
+          "parameters": [],
+          "return_type": "Lcom/tailg/run/intelligence/tlink_ble/LoginState;"
+        },
+        {
+          "name": "checkPassword",
+          "parameters": [],
+          "return_type": "V"
+        },
+        {
+          "name": "getGattCallback",
+          "parameters": [],
+          "return_type": "Lno/nordicsemi/android/ble/BleManager$BleManagerGattCallback;"
+        }
+      ],
+      "current_vehicle_route_verified": false
+    },
+    "qgj_kuyi": {
+      "dex": "classes2.dex",
+      "class": "Lcom/tailg/run/intelligence/tlink_ble/TLinkBleManagerQgj;",
+      "sdk_type_hints": [
+        "Kuyi BLE SDK"
+      ],
+      "public_signature_probes": [
+        {
+          "name": "connectDevice",
+          "parameters": [
+            "Landroidx/lifecycle/LifecycleOwner;",
+            "Lcom/kuyi/blesdk/scan/ScannedDevice;",
+            "Lcom/tailg/run/intelligence/tlink_ble/BleConnectType;",
+            "I",
+            "Z",
+            "Ljava/lang/String;",
+            "Ljava/util/List;",
+            "Ljava/lang/String;"
+          ],
+          "return_type": "V"
+        },
+        {
+          "name": "disconnectDevice",
+          "parameters": [],
+          "return_type": "V"
+        },
+        {
+          "name": "getLoginConnectState",
+          "parameters": [],
+          "return_type": "Lcom/tailg/run/intelligence/tlink_ble/LoginState;"
+        },
+        {
+          "name": "ecuBind",
+          "parameters": [
+            "Landroidx/lifecycle/LifecycleOwner;"
+          ],
+          "return_type": "V"
+        },
+        {
+          "name": "onBleReady",
+          "parameters": [],
+          "return_type": "V"
+        }
+      ],
+      "current_vehicle_route_verified": false
+    },
+    "legacy_android_gatt": {
+      "dex": "classes17.dex",
+      "class": "Lcom/tailg/run/intelligence/ble/tailg/TailgBle;",
+      "sdk_type_hints": [
+        "Android Bluetooth GATT"
+      ],
+      "public_signature_probes": [
+        {
+          "name": "doServicesDiscovered",
+          "parameters": [
+            "Landroid/bluetooth/BluetoothGatt;",
+            "I"
+          ],
+          "return_type": "V"
+        },
+        {
+          "name": "executeGetToken",
+          "parameters": [],
+          "return_type": "V"
+        },
+        {
+          "name": "onConnectionStateChange",
+          "parameters": [
+            "Landroid/bluetooth/BluetoothGatt;",
+            "I",
+            "I"
+          ],
+          "return_type": "V"
+        },
+        {
+          "name": "onServicesDiscovered",
+          "parameters": [
+            "Landroid/bluetooth/BluetoothGatt;",
+            "I"
+          ],
+          "return_type": "V"
+        }
+      ],
+      "current_vehicle_route_verified": false
+    }
+  },
+  "caution": "These are static prototype definitions. No proof of active backend, authenticated session, ownership, or permission to transmit commands."
+}

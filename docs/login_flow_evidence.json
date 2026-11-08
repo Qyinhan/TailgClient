@@ -1,0 +1,29 @@
+{
+  "source": "STATIC_APK",
+  "apk_sha256": "5c50322bca96a95490316818abc7729f2798bf7c091ad1c2fd0c13c7f79f7245",
+  "live_test": "NOT_RUN",
+  "challenge": {
+    "service_method": "TailgService.sliderVerify",
+    "method": "POST",
+    "path": "app/captcha/slider/verify",
+    "body_keys": [
+      "ticket",
+      "randstr"
+    ],
+    "response_getters": [
+      "getCaptchaCode",
+      "getCaptchaMsg",
+      "getCaptchaPassToken",
+      "getCaptchaPassTokenExpireIn",
+      "getPassed"
+    ],
+    "next_operation": "CodeLoginViewModel.loginCode(captchaPassToken)"
+  },
+  "device_identifier": {
+    "entry_point": "MacCodeUtils.getMac(Context)",
+    "delegate": "com.blankj.utilcode.util.DeviceUtils.getUniqueDeviceId()",
+    "cross_application_compatibility": "NOT_VERIFIED"
+  },
+  "session_header": "Authorization",
+  "session_header_capture": "TailgRetrofit$1.intercept -> PrefsUtil.saveToken"
+}

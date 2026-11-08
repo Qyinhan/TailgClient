@@ -1,0 +1,69 @@
+{
+  "evidence": "STATIC_APK",
+  "device_test": "NOT_RUN",
+  "auth_verified": false,
+  "source_version": "3.6.2",
+  "managers": {
+    "Lcom/tailg/run/intelligence/tlink_ble/TLinkBleManager;": {
+      "dex": "classes2.dex",
+      "total_method_definitions": 248,
+      "selected_public_method_names": [
+        "checkPassword",
+        "connectDevice",
+        "disconnectDevice",
+        "getGattCallback",
+        "getLoginConnectState",
+        "read2002",
+        "readCode",
+        "readFirmwareVersion",
+        "readImei",
+        "readSystemId",
+        "writeDataFbb1",
+        "writeDataFcc1"
+      ],
+      "not_found_from_probe": []
+    },
+    "Lcom/tailg/run/intelligence/tlink_ble/TLinkBleManagerQgj;": {
+      "dex": "classes2.dex",
+      "total_method_definitions": 80,
+      "selected_public_method_names": [
+        "connectDevice",
+        "disconnectDevice",
+        "ecuBind",
+        "getLoginConnectState",
+        "onBleReady",
+        "read2002",
+        "writeData2002",
+        "writeDataFbb1"
+      ],
+      "not_found_from_probe": []
+    },
+    "Lcom/tailg/run/intelligence/ble/tailg/TailgBle;": {
+      "dex": "classes17.dex",
+      "total_method_definitions": 18,
+      "selected_public_method_names": [
+        "doServicesDiscovered",
+        "executeGetToken",
+        "onCharacteristicChanged",
+        "onConnectionStateChange",
+        "scanCallback",
+        "writeData2Bluetooth"
+      ],
+      "not_found_from_probe": []
+    },
+    "Lcom/tailg/run/intelligence/ble/tailg/TailgBleCmd;": {
+      "dex": "classes17.dex",
+      "total_method_definitions": 27,
+      "selected_public_method_names": [
+        "executeLock",
+        "executeRemotePowerOff",
+        "executeRemotePowerOn",
+        "executeUnLock",
+        "getBleCommandData",
+        "getTokenCommandData"
+      ],
+      "not_found_from_probe": []
+    }
+  },
+  "notes": "Names indicate possible integration points only. Do not infer command bytes, authentication implementation, active protocol, ownership or control capability."
+}

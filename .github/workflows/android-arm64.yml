@@ -1,0 +1,45 @@
+name: Android arm64 build
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - name: Install Android SDK
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager 'platforms;android-36' 'build-tools;35.0.0'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.13'
+      - name: Repository contract and APK validator tests
+        run: |
+          python3 tools/check_repository.py
+          python3 tools/test_apk_verifier.py
+          python3 tools/release_gate.py
+      - name: Domain contract tests and Android debug compile
+        run: gradle --no-daemon :core:domain:smokeTest :app:assembleDebug
+      - name: Android static lint
+        run: gradle --no-daemon :app:lintDebug
+      - name: Verify arm64-only native content
+        run: python3 tools/verify_apk.py app/build/outputs/apk/debug/app-debug.apk
+      - name: Verify APK debug signature
+        run: "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose app/build/outputs/apk/debug/app-debug.apk
+      - name: Publish debug artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tailg-client-arm64-v8a-debug
+          path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
